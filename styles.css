@@ -14,9 +14,16 @@
     /* Fonts */
     --Outfit: 'Outfit', sans-serif;
 }
+
 h1 {
     font-size: 1.5rem;
 }
+
+h1:hover {
+    cursor: pointer;
+    color: var(--Cyan);
+}
+
 body {
     background-color: var(--VDBMainBG);
     font-family: var(--Outfit);
@@ -30,17 +37,22 @@ body {
     padding: 1.5rem;
     border-radius: 1.5rem;
     display: grid;
-
+    max-width: 375px; /* Updated width to 100% */
+    box-shadow: 1rem 2rem 6px var(--VDBMainBG), 1rem 2rem 3rem var(--VDBCardBG); 
+    margin: 0 auto; 
 
 }
+
 .title {
     color: var(--White);
 }
+
 .information {
     color: var(--SoftBlue);
     
 
 }
+
 .details {
     display: flex;
     justify-content: space-between;
@@ -48,17 +60,41 @@ body {
     
 }
 
-picture img {
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image-wrapper img {
     display: block;
     max-width: 100%;
+    border-radius: 1rem;
 }
+
+.image-wrapper:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 222, 0.5);
+    background-image: url("images/icon-view.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
 .value {
     color: var(--Cyan);
     
 }
+
 .days-left {
     color: var(--SoftBlue);
 }
+
 .author {
     border-top: 0.1rem solid var(--VDBLine);
     padding: 0.5rem;
@@ -67,12 +103,20 @@ picture img {
     align-items: center;
     
 }
+
 .author p {
     color: var(--SoftBlue);
 }
+
 .author em {
     color: var(--White);
 }
+
+.author em:hover {
+    cursor: pointer;
+    color: var(--Cyan);
+}
+
 img.author {
     padding: 0rem;
     border: 0.1rem solid white;
