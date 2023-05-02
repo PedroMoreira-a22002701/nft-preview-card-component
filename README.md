@@ -4,7 +4,7 @@
   <br />
   <!-- Status -->
   <a href="#">
-    <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge" alt="Status In Development">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
   </a>&nbsp;&nbsp;&nbsp;
 
   <!-- Difficulty -->
@@ -23,40 +23,32 @@
 - [Demo](#demo)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Author](#author)
 
-## The challenge
 ## Features
--
 
-Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
+- Responsive design
+- Hover and focus states for interactive elements
+
 ## Screenshot
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+![image](https://user-images.githubusercontent.com/79330219/235728550-deb693aa-fcc9-4299-a536-1532978aa76f.png)
 
-Your users should be able to:
 ## Demo
-You can try out the application ---
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+You can try out the application at (Include the live demo URL here)
+
 ## Built With
+
 - HTML
 - CSS
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-## Where to find everything
-
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 ## Getting Started
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
-## Usage
+To get started with this project, simply clone the repository and open the `index.html` file in your browser.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 ## Author
+
 Pedro Moreira
 
 
