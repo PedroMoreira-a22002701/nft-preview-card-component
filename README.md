@@ -36,7 +36,7 @@
 
 ## Demo
 
-You can try out the application at (Include the live demo URL here)
+Try out the [live demo](https://nft-preview-card-component-mu-three.vercel.app)
 
 ## Built With
 
