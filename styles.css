@@ -1,0 +1,84 @@
+:root {
+    /* Primary Colors */
+    
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    /* Neutral Colors */
+
+    --VDBMainBG: hsl(217, 54%, 11%);
+    --VDBCardBG: hsl(216, 50%, 16%);
+    --VDBLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --Outfit: 'Outfit', sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+}
+body {
+    background-color: var(--VDBMainBG);
+    font-family: var(--Outfit);
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.container {
+    background-color: var(--VDBCardBG);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: grid;
+
+
+}
+.title {
+    color: var(--White);
+}
+.information {
+    color: var(--SoftBlue);
+    
+
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+picture img {
+    display: block;
+    max-width: 100%;
+}
+.value {
+    color: var(--Cyan);
+    
+}
+.days-left {
+    color: var(--SoftBlue);
+}
+.author {
+    border-top: 0.1rem solid var(--VDBLine);
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.author p {
+    color: var(--SoftBlue);
+}
+.author em {
+    color: var(--White);
+}
+img.author {
+    padding: 0rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-color: var(--White);
+ 
+}
